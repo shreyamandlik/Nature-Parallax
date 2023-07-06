@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+html,body{
+    height:100%;
+    margin:0;
+    font-weight: 400;
+    font-size:18px;
+    font-family: 'Roboto Condensed', sans-serif; ;
+    line-height: 2em;
+    color:rgb(119, 124, 128)
+}
+
+.image1{
+    background-image: url(images/image1.png);
+   min-height: 100%;
+    
+}
+.image2{
+    background-image: url(images/image2.png);
+    min-height:400px;
+     
+}
+
+.image3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+     
+}
+
+.image1,
+.image2, 
+.image3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+
+.text-bg{
+    background: #393636;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.section{
+ padding: 50px 80px;
+ text-align: center;
+}
+
+.section-light{
+background: #eae4e4;
+color:#302d2d;
+}
+
+.section-dark{
+    background: #393636;
+    color: aliceblue;
+}
